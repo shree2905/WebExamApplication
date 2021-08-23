@@ -1,0 +1,35 @@
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\csc.exe
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\vbc.exe
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\VBCSCompiler.exe
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\WebExamApplication.dll.config
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\WebExamApplication.pdb
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\Antlr3.Runtime.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\Newtonsoft.Json.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.WebPages.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\WebGrease.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Net.Http.Formatting.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.Helpers.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.Mvc.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.Optimization.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.Razor.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.WebPages.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.WebPages.Deployment.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\System.Web.WebPages.Razor.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\Antlr3.Runtime.pdb
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\bin\Newtonsoft.Json.xml
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\obj\Debug\WebExamApplication.csprojResolveAssemblyReference.cache
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\obj\Debug\WebExamApplication.dll
+D:\Company Project\MockProject\WebExamApplication\WebExamApplication\obj\Debug\WebExamApplication.pdb
+D:\Work\ProgramTree Project\Company Project\MockProject\WebExamApplication\WebExamApplication\obj\Debug\WebExamApplication.csprojResolveAssemblyReference.cache
+D:\Work\ProgramTree Project\Company Project\MockProject\WebExamApplication\WebExamApplication\obj\Debug\WebExamApplication.dll
+D:\Work\ProgramTree Project\Company Project\MockProject\WebExamApplication\WebExamApplication\obj\Debug\WebExamApplication.pdb

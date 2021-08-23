@@ -1,0 +1,91 @@
+﻿@{
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        table {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        body {
+            background-color: #f7f7f7;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+
+<div id="DisplayData" class="container text-white" style="width:830px;background:#1b3256;text-align: center"></div>
+
+@using (Html.BeginForm())
+{   <center>
+        <button id="btnsubmit" name="btnsubmit" class="btn btn-warning">Submit Exam</button>
+    </center>
+}
+
+<script>
+    //var item=0;
+    //var n = 0;
+    //var picData;
+    //$('#btnnext').click(function (e) {
+    //    if ($('#btnprev').prop("disabled") == true) {
+    //        $('#btnprev').prop("disabled", false);
+    //    }
+    //    e.preventDefault();
+    //    var t = n - 1;
+    //    item = item+1;
+    //    showslide(picData, item);
+    //    if (item === t) {
+    //        $('#btnnext').prop('disabled', true);
+    //    }
+    //});
+    //$('#btnprev').click(function (d) {
+    //    if ($('#btnnext').prop("disabled") == true);
+    //    {
+    //        $('#btnnext').prop("disabled",false)
+    //    }
+    //    d.preventDefault();
+    //    item--;
+    //    showslide(picData, item);
+    //    if (item === 0) {
+    //        $('#btnprev').prop('disabled', true);
+    //    }
+    //});
+    var LoadData = function (data) {
+
+        var strHtml = "";
+        strHtml += "<table border=1 class='table table-hover table-bordered'>";
+        $.each(data, function (index, dr) {
+            //strHtml += "<tr>";
+            strHtml += "<tr>" + dr.Question + "</tr>";
+            strHtml += "<tr>";
+            strHtml += "<td>";
+            strHtml += "<input type='radio' name=" + dr.QueSr + " value=" + QOption1 + ">" + QOption1 + "<br>";
+            strHtml += "<input type='radio' name=" + dr.QueSr + " value=" + QOption2 + ">" + QOption2 + "<br>";
+            strHtml += "<input type='radio' name=" + dr.QueSr + " value=" + QOption3 + ">" + QOption3 + "<br>";
+            strHtml += "<input type='radio' name=" + dr.QueSr + " value=" + QOption4 + ">" + QOption4 + "<br>";
+            strHtml += "</td>";
+            strHtml += "</tr>";
+        });
+        strHtml += "</table>";
+        $('#DisplayData').html(strHtml);
+    }
+    $(document).ready(function () {
+        var LoadGrid = function () {
+            $.ajax({
+                url: "/Exam/GetExam",
+                type: "POST",
+                success: function (data) {
+                    LoadData(data);
+                }
+            });
+        }
+        if (confirm("Do you want to start Exam?"))
+        {
+            LoadGrid()
+        }
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
